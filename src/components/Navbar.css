@@ -1,0 +1,15 @@
+nav.navbarContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+div.navbarButton{
+    padding-left: 20px;
+    padding-right: 20px;
+}

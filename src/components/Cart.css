@@ -1,0 +1,59 @@
+div.cartProductContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.cartProductName{
+    flex-grow: 2;
+    padding-right: 20px;   
+}
+
+div.cartProductPrice{
+    width: 100px;
+    padding-right: 20px;
+}
+
+div.cartProductQuantity{
+    width: 50px;
+    width: max-content;
+    padding-right: 20px;
+}
+
+button.cartProductRemove{
+    width: 60px;
+    cursor: pointer;
+}
+
+div.cartTotalContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+div.cartTotalLabel{
+    width: max-content;
+    padding-right: 20px;
+}
+
+div.cartTotalValue{
+    width: max-content;
+    padding-right: 20px;
+    width: 100px;
+}
+
+div.cartPurchaseContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+button.cartPurchaseBtn{
+
+}

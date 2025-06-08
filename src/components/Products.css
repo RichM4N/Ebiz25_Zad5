@@ -1,0 +1,16 @@
+div.productContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.productNameContainer{
+    flex-grow: 2;
+    padding-right: 20px;
+}
+
+div.productPriceContainer{
+    flex-grow: 1;
+    padding-right: 20px;
+}
